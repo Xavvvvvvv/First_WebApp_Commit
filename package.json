@@ -1,0 +1,16 @@
+{
+  "name": "Mi WebApp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx live-server src"
+  },
+  "dependencies": {
+    "three": "^0.166.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.166.0",
+    "live-server": "^1.2.2",
+    "typescript": "^5.5.3"
+  }
+}
