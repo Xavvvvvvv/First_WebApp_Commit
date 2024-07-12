@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "npx live-server src"
+    "start": "tsc && npx live-server dist",
+    "build": "tsc"
   },
   "dependencies": {
     "three": "^0.166.1"
@@ -12,5 +13,6 @@
     "@types/three": "^0.166.0",
     "live-server": "^1.2.2",
     "typescript": "^5.5.3"
-  }
+  },
+  "type": "module"
 }
